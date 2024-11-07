@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.language-switcher {
+    text-align: center;
+    margin: 20px;
+}
+
+.language-switcher button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.language-switcher button:hover {
+    background-color: #ff6347;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ff6347;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #ff6347;
+    display: inline-block;
+}
+
+.job, .education-item {
+    margin-bottom: 1.5rem;
+}
+
+.job h3, .education-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.profile-photo {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* змініть розмір, щоб підібрати оптимально */
+    height: 150px;
+    border-radius: 50%; /* для кола */
+    object-fit: cover;
+    margin-bottom: 15px; /* відступ між фото та іменем */
+}
+
+.birthdate {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.job-period {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: left; /* вирівнювання по лівому краю */
+    margin: 0;
+}
+
+.job ul {
+    padding-left: 15px; /* додати відступ зліва для всього списку */
+}
+
+.job li {
+    text-align: left; /* вирівнювання тексту всередині <li> по лівому краю */
+    margin-left: 15px; /* додати відступ зліва для кожного пункту списку */
+}
+
+.tech-container, .soft-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-titles {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #ff6347;
+    display: inline-block;
+}
+
+.skill-list {
+    padding-left: 15px;
+    
+}
+
+.skill-list-item {
+    margin-bottom: 1rem;
+}
+
+.skill-list-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+#contact .contact {
+    margin-bottom: 20px; /* Наприклад, 20px */
+     
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+/* Стиль для абзаців - відступ */
+.me-text {
+    text-indent: 30px; /* Відступ на 30 пікселів для кожного абзацу */
+    
+}
+
+
+/* Кнопка */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 100px;  /* Відстань від нижнього краю екрана */
+    right: 150px;   /* Відстань від правого краю екрана */
+    background-color: #ff6347;  /* Колір фону кнопки */
+    color: white;  /* Колір тексту на кнопці */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;  /* Кнопка спочатку прихована */
+    transition: background-color 0.3s; /* Плавний ефект зміни кольору */
+}
+
+#scrollTopBtn:hover {
+    background-color: #00b36e;  /* Змінюється колір при наведенні */
+}
+
+a {
+    color: #2270af;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #42439e;
+}

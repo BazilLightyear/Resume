@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasyl Rishko CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="language-switcher">
+        <button onclick="changeLanguage('uk')">Українська</button>
+        <button onclick="changeLanguage('cs')">Čeština</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+
+    <header>
+        <img src="avatar.jpg" alt="Фото Василя Рішка" class="profile-photo">
+        <h1 data-lang-uk="Василь Рішко" data-lang-cs="Vasil Riško" data-lang-en="Vasyl Rishko">Василь Рішко</h1>
+        <p class="birthdate" data-lang-uk="Дата народження: 18 грудня 1991" data-lang-cs="Datum narození: 18. dubna 1991" data-lang-en="Date of Birth: December 18, 1991">Дата народження: 18 грудня 1991</p>
+        <!-- <p data-lang-uk="Frontend Developer" data-lang-cs="Frontend Vývojář" data-lang-en="Frontend Developer">Frontend Developer</p>  -->
+        <nav>
+            <a href="#about" data-lang-uk="Про мене" data-lang-cs="O mě" data-lang-en="About Me">Про мене</a>
+            <a href="#experience" data-lang-uk="Досвід роботи" data-lang-cs="Pracovní zkušenosti" data-lang-en="Experience">Досвід роботи</a>
+            <a href="#education" data-lang-uk="Освіта" data-lang-cs="Vzdělání" data-lang-en="Education">Освіта</a>
+            <a href="#tech-container" data-lang-uk="Тек скіли" data-lang-cs="Tech skills" data-lang-en="Tech skills">Tech skills</a>
+            <a href="#soft-container" data-lang-uk="Софт скіли" data-lang-cs="Soft skills" data-lang-en="Soft skills">Soft skills</a>
+            <a href="#contact" data-lang-uk="Контакти" data-lang-cs="Kontakt" data-lang-en="Contacts">Контакти</a>
+        </nav>
+    </header>
+
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+
+    <!-- about me -->
+    <section id="about">
+        <h2 data-lang-uk="Про мене" data-lang-cs="O mě" data-lang-en="About Me">Про мене</h2>
+        <b><p class="me-text" data-lang-uk="Я не шукаю конкретну посаду. Я шукаю найкращу посаду."
+           data-lang-cs="Nehledám konkrétní pozici; hledám tu nejlepší."
+           data-lang-en="I am not looking for a specific position; I am looking for the best one.">
+           Короткий опис професійних навичок, досвіду та інтересів у сфері веб-розробки.
+        </p></b>
+        <p class="me-text" data-lang-uk="Переважно працював з рекламними текстами, але добре розбираюся у маркетингу загалом. Цікавлюся IT, нейромережами та програмуванням. Шукаю нові шляхи для вдосконалення своєї діяльності."
+            data-lang-cs="Většinou jsem pracoval s reklamními texty, ale dobře se vyznám v marketingu jako celku. Zajímám se o IT, neuronové sítě a programování a neustále hledám nové způsoby, jak zlepšit svou práci."
+            data-lang-en="I have mostly worked with advertising copy, but I have a solid understanding of marketing as a whole. I am interested in IT, neural networks, and programming, and I’m constantly seeking new ways to improve my work.">
+            Короткий опис професійних навичок, досвіду та інтересів у сфері веб-розробки.
+         </p>
+         <p class="me-text" data-lang-uk="У компанії очікую високих стандартів праці, можливостей для розвитку та справедливої винагороди за мою роботу. Хочу розкрити свій потенціал і приносити користь, використовуючи свої вміння, навички та досвід."
+            data-lang-cs="Ve společnosti očekávám vysoké pracovní standardy, příležitosti k rozvoji a spravedlivé ohodnocení za své úsilí. Chci naplno rozvinout svůj potenciál a přinášet hodnotu využitím svých dovedností, schopností a zkušeností."
+            data-lang-en="In the company, I expect high work standards, opportunities for growth and fair compensation for my efforts. I want to unlock my potential and bring value by using my skills, abilities, and experience.">
+            Короткий опис професійних навичок, досвіду та інтересів у сфері веб-розробки.
+         </p> 
+    </section>
+
+    <!-- work -->
+    <section id="experience">
+        <h2 data-lang-uk="Досвід роботи" data-lang-cs="Pracovní zkušenosti" data-lang-en="Experience">Досвід роботи</h2>
+    
+        <div class="job">
+            <h3><a href="https://www.nfuel.gov.ua/" target="_blank">Nuclear Fuel State Concern</a>
+            </h3>
+            
+            <h4 data-lang-uk="Прес-секретар" data-lang-cs="Tiskový tajemník" data-lang-en="Press-secretary">Прес-секретар
+            </h4>
+            
+            <p class="job-period" data-lang-uk="Вересень 2013 - Травень 2015 | Україна" data-lang-cs="Září 2013 - Květen 2015 | Ukrajina" data-lang-en="September 2013 - May 2015 | Ukraine">Вересень 2013 - Травень 2015 | Україна</p>
+            <ul>
+                <li data-lang-uk="Новини та прес-релізи" data-lang-cs="Zprávy a tiskové zprávy" data-lang-en="News and Press-releases">Новини та прес-релізи</li>
+                <li data-lang-uk="Статті та аналітика" data-lang-cs="Články a analýzy" data-lang-en="Articles and Analytics">Статті та аналітика</li>
+                <li data-lang-uk="Моніторинг ЗМІ" data-lang-cs="Monitorování médií" data-lang-en="Media Monitoring">Моніторинг ЗМІ</li>
+                <li data-lang-uk="Адміністрування сайту" data-lang-cs="Správa webových stránek" data-lang-en="Website Administrating">Адміністрування сайту</li>
+                <li data-lang-uk="Корпоративні завдання" data-lang-cs="Korporátní úkoly" data-lang-en="Corporatize Assignments">Корпоративні завдання</li>
+            </ul>
+        </div>
+    
+        <div class="job">
+            <h3><a href="https://vents.ua/" target="_blank">VENTS</a>
+            </h3>
+            
+            <h4 data-lang-uk="Копірайтер / Контент-менеджер / Корпоративний журналіст" data-lang-cs="Copywriter / Content Manager / Korporátní novinář" data-lang-en="Copywriter / Content Manager / Corporatize Journalist">Копірайтер / Контент-менеджер / Корпоративний журналіст
+            </h4>
+            <p class="job-period" data-lang-uk="Квітень 2016 - Травень 2020 | Україна" data-lang-cs="Duben 2016 - Květen 2020 | Ukrajina" data-lang-en="April 2016 - May 2020 | Ukraine">Квітень 2016 - Травень 2020 | Україна</p>
+            <ul>
+                <li data-lang-uk="Новини, прес-релізи" data-lang-cs="Zprávy, tiskové zprávy" data-lang-en="News, Press-releases">Новини, прес-релізи</li>
+                <li data-lang-uk="Статті, аналітика, інтерв'ю" data-lang-cs="Články, analýzy, rozhovory" data-lang-en="Articles, Analytics, Interviews">Статті, аналітика, інтерв'ю</li>
+                <li data-lang-uk="Маркетингові тексти" data-lang-cs="Marketingové texty" data-lang-en="Marketing Sales Texts">Маркетингові тексти</li>
+                <li data-lang-uk="SEO-тексти" data-lang-cs="SEO texty" data-lang-en="SEO Texts">SEO-тексти</li>
+                <li data-lang-uk="Слогани для банерів, тексти SMM" data-lang-cs="Slogany pro bannery, SMM texty" data-lang-en="Banner Slogans, SMM Texts">Слогани для банерів, тексти SMM</li>
+                <li data-lang-uk="Адміністрування вебсайтів" data-lang-cs="Správa webových stránek" data-lang-en="Websites Administrating">Адміністрування вебсайтів</li>
+                <li data-lang-uk="Тестові кейси, відстеження помилок, звіти про помилки" data-lang-cs="Testovací případy, sledování chyb, zprávy o chybách" data-lang-en="Test Cases, Bug Tracking, Bug Reports">Тестові кейси, відстеження помилок, звіти про помилки</li>
+                <li data-lang-uk="HTML-форматування тексту" data-lang-cs="HTML formátování textu" data-lang-en="HTML Text Formatting">HTML-форматування тексту</li>
+            </ul>
+        </div>
+    
+        <div class="job">
+            <h3><a href="https://rozetka.com.ua/" target="_blank">Rozetka</a>
+            </h3>
+            
+            <h3 data-lang-uk="Копірайтер" data-lang-cs="Copywriter" data-lang-en="Copywriter">Копірайтер
+            </h3>
+            <p class="job-period" data-lang-uk="Червень 2021 - Травень 2023 | Україна" data-lang-cs="Červen 2021 - Květen 2023 | Ukrajina" data-lang-en="June 2021 - May 2023 | Ukraine">Червень 2021 - Травень 2023 | Україна</p>
+            <ul>
+                <li data-lang-uk="Слогани для банерів" data-lang-cs="Slogany pro bannery" data-lang-en="Banner Slogans">Слогани для банерів</li>
+                <li data-lang-uk="Маркетингові тексти для електронних листів і месенджерів" data-lang-cs="Marketingové texty pro e-maily a messengery" data-lang-en="Email and Messenger Marketing Texts">Тексти для електронних листів і месенджерів</li>
+                <li data-lang-uk="Пуш-повідомлення, SMM тексти" data-lang-cs="Push zprávy, SMM texty" data-lang-en="Push-messages, SMM Texts">Пуш-повідомлення, SMM тексти</li>
+                <li data-lang-uk="Тексти для реклами на YouTube та телебаченні" data-lang-cs="Texty pro reklamu na YouTube a televizi" data-lang-en="YouTube and TV Ad Texts">Тексти для реклами на YouTube та телебаченні</li>
+                <li data-lang-uk="Тексти для цільових сторінок" data-lang-cs="Texty pro cílové stránky" data-lang-en="Target page texts">Тексти для цільових сторінок</li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- education -->
+    <section id="education">
+        <h2 data-lang-uk="Освіта" data-lang-cs="Vzdělání" data-lang-en="Education">Освіта</h2>
+        
+        <div class="education-item">
+            <h3>
+                <a href="https://nau.edu.ua/en/" target="_blank">
+                    <span class="study-place">National Aviation University</span>
+                </a>
+            </h3>
+            <h4 class="speciality" data-lang-uk="Журналістика" data-lang-cs="Žurnalistika" data-lang-en="Journalism">Журналістика</h4>
+            <p class="job-period" data-lang-uk="Вересень 2008 - Червень 2013 | Україна" data-lang-cs="Září 2008 - Červen 2013 | Ukrajina" data-lang-en="September 2008 - June 2013 | Ukraine">Вересень 2008 - Червень 2013 | Україна</p>
+        </div>
+    
+        <div class="education-item">
+            <h3>
+                <a href="https://prjctr.com/" target="_blank">
+                    <span class="study-place">Projector</span>
+                </a>
+            </h3>
+            <h4 class="speciality" data-lang-uk="Саморедагування тексту" data-lang-cs="Seberevisí textu" data-lang-en="Text Self-Editing">Саморедагування тексту</h4>
+            <p class="job-period" data-lang-uk="Липень 2018 | Україна" data-lang-cs="Červenec 2018 | Ukrajina" data-lang-en="July 2018 | Ukraine">Липень 2018 | Україна</p>
+        </div>
+    
+        <div class="education-item">
+            <h3>
+                <a href="https://www.helpukraine.casers.org/uk/course" target="_blank">
+                    <span class="study-place">Caser</span>
+                </a>
+            </h3>
+            <h4 class="speciality" data-lang-uk="Просування бренду: Тригери та сторітелінг" data-lang-cs="Propagace značky: Triggery a storytelling" data-lang-en="Brand Promotion: Triggers & Storytelling">Просування бренду: Тригери та оповідання</h4>
+            <p class="job-period" data-lang-uk="Вересень 2018 | Україна" data-lang-cs="Září 2018 | Ukrajina" data-lang-en="September 2018 | Ukraine">Вересень 2018 | Україна</p>
+        </div>
+    
+        <div class="education-item">
+            <h3>
+                <a href="https://bazilik-school.com.ua/" target="_blank">
+                    <span class="study-place">Bazilik</span>
+                </a>
+            </h3>
+            <h4 class="speciality" data-lang-uk="Інтенсив з копірайтингу" data-lang-cs="Intenzivní kurz copywritingu" data-lang-en="Copywriting Intensive">Інтенсив з копірайтингу</h4>
+            <p class="job-period" data-lang-uk="Лютий 2022 | Україна" data-lang-cs="Únor 2022 | Ukrajina" data-lang-en="February 2022 | Ukraine">Лютий 2022 | Україна</p>
+        </div>
+    
+        <div class="education-item">
+            <h3>
+                <a href="https://learndigital.withgoogle.com/digitalworkshop-ua/course/digital-marketing" target="_blank">
+                    <span class="study-place">Google Digital Workshop</span>
+                </a>
+            </h3>
+            <h4 class="speciality" data-lang-uk="Цифровий маркетинг" data-lang-cs="Digitální marketing" data-lang-en="Digital Marketing">Цифровий маркетинг</h4>
+            <p class="job-period" data-lang-uk="Квітень 2023 | Україна" data-lang-cs="Duben 2023 | Ukrajina" data-lang-en="April 2023 | Ukraine">Квітень 2023 | Україна</p>
+        </div>
+    
+        <div class="education-item">
+            <h3>
+                <a href="https://www.thecampster.com" target="_blank">
+                    <span class="study-place">Campster</span>
+                </a>
+            </h3>
+            <h4 class="speciality" data-lang-uk="Інтернет-маркетинг" data-lang-cs="Internetový marketing" data-lang-en="Internet Marketing">Інтернет-маркетинг</h4>
+            <p class="job-period" data-lang-uk="Травень 2023 | Україна" data-lang-cs="Květen 2023 | Ukrajina" data-lang-en="May 2023 | Ukraine">Травень 2023 | Україна</p>
+        </div>
+    
+        <div class="education-item">
+            <h4 class="speciality" data-lang-uk="Копірайтинг" data-lang-cs="Copywriting" data-lang-en="Copywriting">Копірайтинг</h4>
+            <p class="job-period" data-lang-uk="Травень 2023 | Україна" data-lang-cs="Květen 2023 | Ukrajina" data-lang-en="May 2023 | Ukraine">Травень 2023 | Україна</p>
+        </div>
+    </section>
+
+    <!-- tech skills -->
+    <section id="tech-container">
+        <h3 class="sidebar-titles" data-lang-uk="Тек скіли" data-lang-cs="Tech skills" data-lang-en="Tech skills">Tech Skills</h3>
+        <ul class="skill-list">
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Word, Excel, PowerPoint" data-lang-en="Word, Excel, PowerPoint" data-lang-cz="Word, Excel, PowerPoint">Word, Excel, PowerPoint</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="VS Code" data-lang-en="VS Code" data-lang-cz="VS Code">VS Code</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Google Drive Pack" data-lang-en="Google Drive Pack" data-lang-cz="Balíček Google Drive">Google Drive Pack</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Jira, WorkSection" data-lang-en="Jira, WorkSection" data-lang-cz="Jira, WorkSection">Jira, WorkSection</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Meta Ads Manager" data-lang-en="Meta Ads Manager" data-lang-cz="Meta Ads Manager">Meta Ads Manager</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Google Ads (основний рівень)" data-lang-en="Google Ads (basic level)" data-lang-cz="Google Ads (základní úroveň)">Google Ads (basic level)</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Google Analytics (основний рівень)" data-lang-en="Google Analytics (basic level)" data-lang-cz="Google Analytics (základní úroveň)">Google Analytics (basic level)</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="HTML/CSS (основний рівень)" data-lang-en="HTML/CSS (basic level)" data-lang-cz="HTML/CSS (základní úroveň)">HTML/CSS (basic level)</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Figma (основний рівень)" data-lang-en="Figma (basic level)" data-lang-cz="Figma (základní úroveň)">Figma (basic level)</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Chat GPT, Gemini, Midjourney" data-lang-en="Chat GPT, Gemini, Midjourney" data-lang-cz="Chat GPT, Gemini, Midjourney">Chat GPT, Gemini, Midjourney</span>
+            </li>
+        </ul>
+    </section>
+
+<!-- soft skills -->
+    <section id="soft-container">
+        <h3 class="sidebar-titles" data-lang-uk="Софт скіли" data-lang-cs="Soft skills" data-lang-en="Soft skills">Soft Skills</h3>
+        <ul class="skill-list">
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Командний гравець" data-lang-en="Team player" data-lang-cz="Týmový hráč">Teamwork</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Обираю креативні підходи" data-lang-en="I choose creative approaches" data-lang-cz="Volím kreativní přístupya">Creativity</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Не обмежений поглядами" data-lang-en="Open-minded" data-lang-cz="Ne jsem omezen nazory">Open-mindedness</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Чесний та відвертий" data-lang-en="Honest and frank" data-lang-cz="Upřímný a otevřený">Integrity</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Легко навчаюся новому" data-lang-en="Opened to learning" data-lang-cz="Snadno se učím nové věci">Openness to learning</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Намагаюся шукати позитивні сторони" data-lang-en="Always try to look for positive attitude" data-lang-cz="Snažím se hledat pozitivní stránky">Creativity</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Відкритий до критики" data-lang-en="Opened to criticism" data-lang-cz="Jsem otevřen kritice">Openness to criticism</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Критичне мислення - наше все" data-lang-en="Critical thinking is everething" data-lang-cz="Kritické myšlení je všechno">Critical thinking</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Легко адаптовуюся" data-lang-en="Adaptable" data-lang-cz="Snadno se přizpůsobím">Adaptability</span>
+            </li>
+            <li class="skill-list-item">
+                <span class="skill-list-text" data-lang-uk="Маю високий емоційний інтелект" data-lang-en="I have a high emotional intelligence" data-lang-cz="Mám vysokou emoční inteligenci">Emotional intelligence</span>
+            </li>
+        </ul>
+    </section>
+
+<!-- contacts -->
+    <section id="contact">
+        <h2 data-lang-uk="Контакти" data-lang-cs="Kontakty" data-lang-en="Contacts">Контакти</h2>
+
+        <!-- <div class="contact">
+            <h3 data-lang-uk="Адреса" data-lang-cs="Adresa" data-lang-en="Address">Адреса</h3>
+            <p data-lang-uk="вул. Примерна, 1, Київ, Україна" data-lang-cs="ul. Příkladná 1, Praha, Česká republika" data-lang-en="1 Example Street, Kyiv, Ukraine">вул. Примерна, 1, Київ, Україна</p>
+        </div> -->
+
+        <div class="contact">
+            <h3 data-lang-uk="Телефон" data-lang-cs="Telefon" data-lang-en="Phone">Телефон</h3>
+            <ul class="contact-list">
+               <li><a href="tel:+420 776 770 578" data-lang-uk="+420 776 770 578" data-lang-cs="+420 776 770 578" data-lang-en="+420 776 770 578">+420 776 770 578</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h3 data-lang-uk="Email" data-lang-cs="E-mail" data-lang-en="Email">Email</h3>
+            <ul class="contact-list">
+                <li><a href="v.rishko91@gmail.com" data-lang-uk="v.rishko91@gmail.com" data-lang-cs="v.rishko91@gmail.com" data-lang-en="v.rishko91@gmail.com">v.rishko91@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h3 data-lang-uk="Соціальні мережі" data-lang-cs="Sociální sítě" data-lang-en="Social Media">Соціальні мережі</h3>
+            <ul class="contact-list">
+                <li><a href="https://www.linkedin.com/in/vasyl-rishko/" target="_blank" data-lang-uk="LinkedIn" data-lang-cs="LinkedIn" data-lang-en="LinkedIn">LinkedIn</a></li>
+                <!-- <li><a href="https://instagram.com/example" target="_blank" data-lang-uk="Instagram" data-lang-cs="Instagram" data-lang-en="Instagram">Instagram</a></li> -->
+            </ul>
+        </div>
+
+        <!-- <div class="contact-form">
+            <h3 data-lang-uk="Залиште ваше повідомлення" data-lang-cs="Zanechte svou zprávu" data-lang-en="Leave your message">Залиште ваше повідомлення</h3>
+
+            <label for="name" data-lang-uk="Ваше ім'я:" data-lang-cs="Vaše jméno:" data-lang-en="Your name:">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email" data-lang-uk="Ваш Email:" data-lang-cs="Váš e-mail:" data-lang-en="Your Email:">Ваш Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message" data-lang-uk="Повідомлення:" data-lang-cs="Zpráva:" data-lang-en="Message:">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" data-lang-uk="Надіслати" data-lang-cs="Odeslat" data-lang-en="Send">Надіслати</button>
+        </div> -->
+    </section>
+
+
+    <footer>
+        <p data-lang-uk="© 2024 Василь Рішко. Всі права захищені."
+           data-lang-cs="© 2024 Vasil Riško. Všechna práva vyhrazena."
+           data-lang-en="© 2024 Vasyl Rishko. All rights reserved.">
+           © 2024 Василь Рішко. Всі права захищені.
+        </p>
+    </footer>
+</body>
+</html>
